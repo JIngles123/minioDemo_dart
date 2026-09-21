@@ -1,0 +1,18 @@
+name: minio_demo
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.0-68.0.dev
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.0
+  aws_common: ^0.7.15
+  aws_s3_api: ^2.0.0
+  aws_signature_v4: ^0.6.13
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
